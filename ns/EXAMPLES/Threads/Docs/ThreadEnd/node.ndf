@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">EXAMPLES.Threads.Docs:ThreadEnd</value>
+    <value name="node_pkg">EXAMPLES</value>
+    <value name="node_comment"></value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <number name="nanostamp" type="Long">64309924560000</number>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">_env</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <number name="protobufKey" type="Integer">536870910</number>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">pub.publish:envelope</value>
+      </record>
+    </array>
+    <record name="eventDescription" javaclass="com.wm.util.Values">
+      <value name="brokerEventTypeName">wm::is::EXAMPLES::Threads::Docs::ThreadEnd</value>
+      <value name="timeToLive">0</value>
+      <value name="storageType">guaranteed</value>
+      <value name="clientValidation">true</value>
+      <value name="aliasName"></value>
+      <Boolean name="enableProtoBuf">true</Boolean>
+      <byte name="protoBufDescriptor">
+CtgKCglwZHQucHJvdG8iTwofRVhBTVBMRVNfVGhyZWFkc19Eb2NzX1RocmVhZEVuZBIsCgRfZW52GP7///8BIAEoCzIVLnB1Yl9wdWJsaXNoX2VudmVsb3BlUgNFbnYihQkKFHB1Yl9wdWJsaXNoX2VudmVsb3BlEh4KCmFjdGl2YXRpb24YASABKAlSCmFjdGl2YXRpb24SIAoLYXBwTGFzdFNlcW4YAiABKAVSC2FwcExhc3RTZXFuEiAKC2FwcFBhc3N3b3JkGAMgASgJUgthcHBQYXNzd29yZBIYCgdhcHBTZXFuGAQgASgFUgdhcHBTZXFuEiAKC2FwcFVzZXJOYW1lGAUgASgJUgthcHBVc2VyTmFtZRIaCghwcmlvcml0eRgGIAEoBVIIcHJpb3JpdHkSKAoPYnVzaW5lc3NDb250ZXh0GAcgASgJUg9idXNpbmVzc0NvbnRleHQSIgoMY29udHJvbExhYmVsGAggAygFUgxjb250cm9sTGFiZWwSGgoIZXJyb3JzVG8YCSABKAlSCGVycm9yc1RvEigKD2Vycm9yUmVxdWVzdHNUbxgKIAEoCVIPZXJyb3JSZXF1ZXN0c1RvEhYKBmxvY2FsZRgLIAEoCVIGbG9jYWxlEh4KCm1heFJlc3VsdHMYDCABKAVSCm1heFJlc3VsdHMSGAoHcmVwbHlUbxgNIAEoCVIHcmVwbHlUbxIaCghydW5MZXZlbBgOIAEoBVIIcnVuTGV2ZWwSHAoJc2lnbmF0dXJlGA8gASgMUglzaWduYXR1cmUSJAoNc2lnbmF0dXJlVHlwZRgQIAEoCVINc2lnbmF0dXJlVHlwZRIgCgtzdGFydFJlc3VsdBgRIAEoBVILc3RhcnRSZXN1bHQSEAoDdGFnGBIgASgFUgN0YWcSGAoHdHJhY2tJZBgTIAEoCVIHdHJhY2tJZBIkCg10cmFuc2FjdGlvbklkGBQgASgJUg10cmFuc2FjdGlvbklkEiYKDnRyYW5zZm9ybVN0YXRlGBUgASgJUg50cmFuc2Zvcm1TdGF0ZRIQCgNhZ2UYFiABKAVSA2FnZRIwChNjb25uZWN0aW9uSW50ZWdyaXR5GBcgASgJUhNjb25uZWN0aW9uSW50ZWdyaXR5EhYKBmRlc3RJZBgYIAEoCVIGZGVzdElkEiAKC2VucXVldWVUaW1lGBkgASgDUgtlbnF1ZXVlVGltZRIcCglsb2dCcm9rZXIYGiABKAlSCWxvZ0Jyb2tlchIYCgdsb2dIb3N0GBsgASgJUgdsb2dIb3N0EjIKFHB1YkRpc3Rpbmd1aXNoZWROYW1lGBwgASgJUhRwdWJEaXN0aW5ndWlzaGVkTmFtZRIUCgVwdWJJZBgdIAEoCVIFcHViSWQSHgoKcHViTmV0QWRkchgeIAEoDFIKcHViTmV0QWRkchIYCgdwdWJTZXFuGB8gASgDUgdwdWJTZXFuEhoKCHB1YkxhYmVsGCAgAygFUghwdWJMYWJlbBIaCghyZWN2VGltZRghIAEoA1IIcmVjdlRpbWUSMQoFcm91dGUYIiADKAsyGy5wdWJfcHVibGlzaF9lbnZlbG9wZV9yb3V0ZVIFcm91dGUSEgoEdXVpZBgjIAEoCVIEdXVpZBIWCgZzdGF0dXMYJCABKAlSBnN0YXR1cyJyChpwdWJfcHVibGlzaF9lbnZlbG9wZV9yb3V0ZRIWCgZicm9rZXIYASABKAlSBmJyb2tlchIaCghyZWN2VGltZRgCIAEoA1IIcmVjdlRpbWUSIAoLZW5xdWV1ZVRpbWUYAyABKANSC2VucXVldWVUaW1l      </byte>
+    </record>
+    <value name="modifiable">true</value>
+    <Boolean name="enableProtoBuf">true</Boolean>
+    <byte name="protoBufDescriptor">
+CtgKCglwZHQucHJvdG8iTwofRVhBTVBMRVNfVGhyZWFkc19Eb2NzX1RocmVhZEVuZBIsCgRfZW52GP7///8BIAEoCzIVLnB1Yl9wdWJsaXNoX2VudmVsb3BlUgNFbnYihQkKFHB1Yl9wdWJsaXNoX2VudmVsb3BlEh4KCmFjdGl2YXRpb24YASABKAlSCmFjdGl2YXRpb24SIAoLYXBwTGFzdFNlcW4YAiABKAVSC2FwcExhc3RTZXFuEiAKC2FwcFBhc3N3b3JkGAMgASgJUgthcHBQYXNzd29yZBIYCgdhcHBTZXFuGAQgASgFUgdhcHBTZXFuEiAKC2FwcFVzZXJOYW1lGAUgASgJUgthcHBVc2VyTmFtZRIaCghwcmlvcml0eRgGIAEoBVIIcHJpb3JpdHkSKAoPYnVzaW5lc3NDb250ZXh0GAcgASgJUg9idXNpbmVzc0NvbnRleHQSIgoMY29udHJvbExhYmVsGAggAygFUgxjb250cm9sTGFiZWwSGgoIZXJyb3JzVG8YCSABKAlSCGVycm9yc1RvEigKD2Vycm9yUmVxdWVzdHNUbxgKIAEoCVIPZXJyb3JSZXF1ZXN0c1RvEhYKBmxvY2FsZRgLIAEoCVIGbG9jYWxlEh4KCm1heFJlc3VsdHMYDCABKAVSCm1heFJlc3VsdHMSGAoHcmVwbHlUbxgNIAEoCVIHcmVwbHlUbxIaCghydW5MZXZlbBgOIAEoBVIIcnVuTGV2ZWwSHAoJc2lnbmF0dXJlGA8gASgMUglzaWduYXR1cmUSJAoNc2lnbmF0dXJlVHlwZRgQIAEoCVINc2lnbmF0dXJlVHlwZRIgCgtzdGFydFJlc3VsdBgRIAEoBVILc3RhcnRSZXN1bHQSEAoDdGFnGBIgASgFUgN0YWcSGAoHdHJhY2tJZBgTIAEoCVIHdHJhY2tJZBIkCg10cmFuc2FjdGlvbklkGBQgASgJUg10cmFuc2FjdGlvbklkEiYKDnRyYW5zZm9ybVN0YXRlGBUgASgJUg50cmFuc2Zvcm1TdGF0ZRIQCgNhZ2UYFiABKAVSA2FnZRIwChNjb25uZWN0aW9uSW50ZWdyaXR5GBcgASgJUhNjb25uZWN0aW9uSW50ZWdyaXR5EhYKBmRlc3RJZBgYIAEoCVIGZGVzdElkEiAKC2VucXVldWVUaW1lGBkgASgDUgtlbnF1ZXVlVGltZRIcCglsb2dCcm9rZXIYGiABKAlSCWxvZ0Jyb2tlchIYCgdsb2dIb3N0GBsgASgJUgdsb2dIb3N0EjIKFHB1YkRpc3Rpbmd1aXNoZWROYW1lGBwgASgJUhRwdWJEaXN0aW5ndWlzaGVkTmFtZRIUCgVwdWJJZBgdIAEoCVIFcHViSWQSHgoKcHViTmV0QWRkchgeIAEoDFIKcHViTmV0QWRkchIYCgdwdWJTZXFuGB8gASgDUgdwdWJTZXFuEhoKCHB1YkxhYmVsGCAgAygFUghwdWJMYWJlbBIaCghyZWN2VGltZRghIAEoA1IIcmVjdlRpbWUSMQoFcm91dGUYIiADKAsyGy5wdWJfcHVibGlzaF9lbnZlbG9wZV9yb3V0ZVIFcm91dGUSEgoEdXVpZBgjIAEoCVIEdXVpZBIWCgZzdGF0dXMYJCABKAlSBnN0YXR1cyJyChpwdWJfcHVibGlzaF9lbnZlbG9wZV9yb3V0ZRIWCgZicm9rZXIYASABKAlSBmJyb2tlchIaCghyZWN2VGltZRgCIAEoA1IIcmVjdlRpbWUSIAoLZW5xdWV1ZVRpbWUYAyABKANSC2VucXVldWVUaW1l    </byte>
+  </record>
+</Values>
