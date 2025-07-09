@@ -1,2 +1,2 @@
-# webMethodsDevExamples
-Examples about development using Integration Software from webMethods.
+# webMethodsDemos
+Integration performed with webMethods Integration Server.

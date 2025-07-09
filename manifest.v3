@@ -10,4 +10,11 @@
   <null name="requires"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
+  <value name="name">EXAMPLES</value>
+  <value name="build"></value>
+  <value name="description">IS1011_</value>
+  <value name="time">2025-06-30 18:18:37 CDT</value>
+  <value name="jvm_version">11.0.13</value>
+  <null name="publisher"/>
+  <value name="patch_nums"></value>
 </Values>
