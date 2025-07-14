@@ -155,7 +155,8 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">"CLIENT_NOMBRE, CLIENTE_APELLIDO, CLIENTE_EMAIL, ORDEN_ID, FECHA_ORDEN, PRODUCTO_NOMBRE, PRODUCTO_DESCRIPCION, PRODUCTO_PRECIO, CANTIDAD_ORDENADA, TOTAL_ORDEN\n"</value>
+  <value name="xml">CLIENT_NOMBRE,CLIENTE_APELLIDO,CLIENTE_EMAIL,ORDEN_ID,FECHA_ORDEN,PRODUCTO_NOMBRE,PRODUCTO_DESCRIPCION,PRODUCTO_PRECIO,CANTIDAD_ORDENADA,TOTAL_ORDEN
+</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -619,16 +620,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">%ClientOrderDetails/cliente_nombre% ","
-%ClientOrderDetails/cliente_apellido%","
-%ClientOrderDetails/cliente_email%","
-%ClientOrderDetails/orden_id%","
-%ClientOrderDetails/fecha_orden%","
-%ClientOrderDetails/producto_nombre%","
-%ClientOrderDetails/producto_descripcion%","
-%ClientOrderDetails/producto_precio%","
-%ClientOrderDetails/cantidad_ordenada%","
-%ClientOrderDetails/total_orden%"\n"</value>
+  <value name="xml">%ClientOrderDetails/cliente_nombre% ,%ClientOrderDetails/cliente_apellido%,%ClientOrderDetails/cliente_email%,%ClientOrderDetails/orden_id%,%ClientOrderDetails/fecha_orden%,%ClientOrderDetails/producto_nombre%,%ClientOrderDetails/producto_descripcion%,%ClientOrderDetails/producto_precio%,%ClientOrderDetails/cantidad_ordenada%,%ClientOrderDetails/total_orden%</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -1121,6 +1113,7 @@
     <value name="field_name">stringToFileInput</value>
     <value name="field_type">record</value>
     <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
@@ -1517,7 +1510,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">D:\FIles\UserReport.csv</value>
+  <value name="xml">D:/ARCHIVOS/8 OTROS/Files/UserReport.csv</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">field</value>
     <value name="node_subtype">unknown</value>
