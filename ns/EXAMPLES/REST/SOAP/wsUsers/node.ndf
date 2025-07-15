@@ -116,7 +116,7 @@
   <number name="mtomThreshold" type="Integer">0</number>
   <null name="externalWSDL"/>
   <null name="externalWSDLURL"/>
-  <value name="WSDLURL">http://NICK-Server.mshome.net:5554/ws/EXAMPLES.REST.SOAP:wsGetUser?WSDL</value>
+  <value name="WSDLURL">http://NICK-Server:5554/ws/EXAMPLES.REST.SOAP:wsUsers?WSDL</value>
   <value name="definitionName">wsUsers</value>
   <value name="version">V_10_5</value>
   <null name="schemaDomain"/>
@@ -140,6 +140,7 @@
         <value name="EXAMPLES_REST_SOAP_wsGetUser_Binder_putUser">putUser</value>
         <value name="EXAMPLES_REST_SOAP_wsGetUser_Binder_deleteUser">deleteUser</value>
         <value name="EXAMPLES_REST_SOAP_wsGetUser_Binder_getUser">getUser</value>
+        <value name="EXAMPLES_REST_SOAP_wsGetUser_Binder_run">run</value>
         <value name="EXAMPLES_REST_SOAP_wsGetUser_Binder_postUser">postUser</value>
       </record>
       <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
@@ -290,6 +291,36 @@
         <record name="body" javaclass="com.wm.util.Values">
           <value name="name">putUserResponse</value>
           <value name="nsOwner">EXAMPLES.services:putUser</value>
+          <number name="nsOwnerType" type="Integer">2</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">run</value>
+      <value name="serviceName">EXAMPLES.Threads.Reports.Pub:run</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">run</value>
+          <value name="nsOwner">EXAMPLES.Threads.Reports.Pub:run</value>
+          <number name="nsOwnerType" type="Integer">1</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <value name="originalDocName"></value>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">runResponse</value>
+          <value name="nsOwner">EXAMPLES.Threads.Reports.Pub:run</value>
           <number name="nsOwnerType" type="Integer">2</number>
           <Boolean name="addedByClient">false</Boolean>
           <value name="originalDocName"></value>
