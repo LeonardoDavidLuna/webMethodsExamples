@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="record" javaclass="com.wm.util.Values">
+    <value name="node_type">record</value>
+    <value name="node_subtype">unknown</value>
+    <value name="node_nsName">EXAMPLES.Threads.Template.Docs:ThreadtEnd</value>
+    <value name="node_pkg">EXAMPLES</value>
+    <value name="node_comment"></value>
+    <value name="is_public">false</value>
+    <value name="field_type">record</value>
+    <value name="field_dim">0</value>
+    <value name="wrapper_type">IData</value>
+    <value name="nillable">true</value>
+    <value name="form_qualified">false</value>
+    <value name="is_global">false</value>
+    <number name="nanostamp" type="Long">80151361788000</number>
+    <array name="rec_fields" type="record" depth="1">
+      <record javaclass="com.wm.util.Values">
+        <value name="node_type">record</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">_env</value>
+        <value name="field_type">recref</value>
+        <value name="field_dim">0</value>
+        <value name="field_opt">true</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+        <value name="modifiable">true</value>
+        <value name="rec_ref">pub.publish:envelope</value>
+      </record>
+    </array>
+    <record name="eventDescription" javaclass="com.wm.util.Values">
+      <value name="brokerEventTypeName">wm::is::EXAMPLES::Threads::Template::Docs::ThreadtEnd</value>
+      <value name="timeToLive">0</value>
+      <value name="storageType">guaranteed</value>
+      <value name="clientValidation">true</value>
+      <value name="aliasName"></value>
+      <Boolean name="enableProtoBuf">true</Boolean>
+      <byte name="protoBufDescriptor">
+Cv0GCiJUaHJlYWRFbmQ0NTA0MjI2NDcyMjAyNzExMjA0LnByb3RvIkMKKEVYQU1QTEVTX1RocmVhZHNfVGVtcGxhdGVfRG9jc19UaHJlYWRFbmQSFwoEX2Vudhj+////ASABKAsyBS5fZW52IswFCgRfZW52EhIKCmFjdGl2YXRpb24YASABKAkSEwoLYXBwTGFzdFNlcW4YAiABKAUSEwoLYXBwUGFzc3dvcmQYAyABKAkSDwoHYXBwU2VxbhgEIAEoBRITCgthcHBVc2VyTmFtZRgFIAEoCRIQCghwcmlvcml0eRgGIAEoBRIXCg9idXNpbmVzc0NvbnRleHQYByABKAkSFAoMY29udHJvbExhYmVsGAggAygFEhAKCGVycm9yc1RvGAkgASgJEhcKD2Vycm9yUmVxdWVzdHNUbxgKIAEoCRIOCgZsb2NhbGUYCyABKAkSEgoKbWF4UmVzdWx0cxgMIAEoBRIPCgdyZXBseVRvGA0gASgJEhAKCHJ1bkxldmVsGA4gASgFEhEKCXNpZ25hdHVyZRgPIAEoDBIVCg1zaWduYXR1cmVUeXBlGBAgASgJEhMKC3N0YXJ0UmVzdWx0GBEgASgFEgsKA3RhZxgSIAEoBRIPCgd0cmFja0lkGBMgASgJEhUKDXRyYW5zYWN0aW9uSWQYFCABKAkSFgoOdHJhbnNmb3JtU3RhdGUYFSABKAkSCwoDYWdlGBYgASgFEhsKE2Nvbm5lY3Rpb25JbnRlZ3JpdHkYFyABKAkSDgoGZGVzdElkGBggASgJEhMKC2VucXVldWVUaW1lGBkgASgDEhEKCWxvZ0Jyb2tlchgaIAEoCRIPCgdsb2dIb3N0GBsgASgJEhwKFHB1YkRpc3Rpbmd1aXNoZWROYW1lGBwgASgJEg0KBXB1YklkGB0gASgJEhIKCnB1Yk5ldEFkZHIYHiABKAwSDwoHcHViU2VxbhgfIAEoAxIQCghwdWJMYWJlbBggIAMoBRIQCghyZWN2VGltZRghIAEoAxIaCgVyb3V0ZRgiIAMoCzILLl9lbnZfcm91dGUSDAoEdXVpZBgjIAEoCRIOCgZzdGF0dXMYJCABKAkiQwoKX2Vudl9yb3V0ZRIOCgZicm9rZXIYASABKAkSEAoIcmVjdlRpbWUYAiABKAMSEwoLZW5xdWV1ZVRpbWUYAyABKAM=      </byte>
+    </record>
+    <value name="modifiable">true</value>
+    <Boolean name="enableProtoBuf">true</Boolean>
+    <byte name="protoBufDescriptor">
+Cv0GCiJUaHJlYWRFbmQ0NTA0MjI2NDcyMjAyNzExMjA0LnByb3RvIkMKKEVYQU1QTEVTX1RocmVhZHNfVGVtcGxhdGVfRG9jc19UaHJlYWRFbmQSFwoEX2Vudhj+////ASABKAsyBS5fZW52IswFCgRfZW52EhIKCmFjdGl2YXRpb24YASABKAkSEwoLYXBwTGFzdFNlcW4YAiABKAUSEwoLYXBwUGFzc3dvcmQYAyABKAkSDwoHYXBwU2VxbhgEIAEoBRITCgthcHBVc2VyTmFtZRgFIAEoCRIQCghwcmlvcml0eRgGIAEoBRIXCg9idXNpbmVzc0NvbnRleHQYByABKAkSFAoMY29udHJvbExhYmVsGAggAygFEhAKCGVycm9yc1RvGAkgASgJEhcKD2Vycm9yUmVxdWVzdHNUbxgKIAEoCRIOCgZsb2NhbGUYCyABKAkSEgoKbWF4UmVzdWx0cxgMIAEoBRIPCgdyZXBseVRvGA0gASgJEhAKCHJ1bkxldmVsGA4gASgFEhEKCXNpZ25hdHVyZRgPIAEoDBIVCg1zaWduYXR1cmVUeXBlGBAgASgJEhMKC3N0YXJ0UmVzdWx0GBEgASgFEgsKA3RhZxgSIAEoBRIPCgd0cmFja0lkGBMgASgJEhUKDXRyYW5zYWN0aW9uSWQYFCABKAkSFgoOdHJhbnNmb3JtU3RhdGUYFSABKAkSCwoDYWdlGBYgASgFEhsKE2Nvbm5lY3Rpb25JbnRlZ3JpdHkYFyABKAkSDgoGZGVzdElkGBggASgJEhMKC2VucXVldWVUaW1lGBkgASgDEhEKCWxvZ0Jyb2tlchgaIAEoCRIPCgdsb2dIb3N0GBsgASgJEhwKFHB1YkRpc3Rpbmd1aXNoZWROYW1lGBwgASgJEg0KBXB1YklkGB0gASgJEhIKCnB1Yk5ldEFkZHIYHiABKAwSDwoHcHViU2VxbhgfIAEoAxIQCghwdWJMYWJlbBggIAMoBRIQCghyZWN2VGltZRghIAEoAxIaCgVyb3V0ZRgiIAMoCzILLl9lbnZfcm91dGUSDAoEdXVpZBgjIAEoCRIOCgZzdGF0dXMYJCABKAkiQwoKX2Vudl9yb3V0ZRIOCgZicm9rZXIYASABKAkSEAoIcmVjdlRpbWUYAiABKAMSEwoLZW5xdWV1ZVRpbWUYAyABKAM=    </byte>
+  </record>
+</Values>
