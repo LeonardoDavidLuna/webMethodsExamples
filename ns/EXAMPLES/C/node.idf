@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="encodeutf8">true</value>
+  <value name="shared">CnN0YXRpYyB7CiAgICB0cnkgewogICAgICAgIFN5c3RlbS5sb2FkTGlicmFyeSgiRVhBTVBMRVNf
+QyIpOwogICAgICAgIEpvdXJuYWxMb2dnZXIubG9nKERlYnVnTXNnLkxPR19NU0csIEpvdXJuYWxM
+b2dnZXIuRkFDX1BBQ0tBR0UsIEpvdXJuYWxMb2dnZXIuSU5GTywgCgkJCSJMb2FkaW5nIG5hdGl2
+ZSBsaWJyYXJ5OiBFWEFNUExFU19DIik7CiAgICB9IGNhdGNoIChVbnNhdGlzZmllZExpbmtFcnJv
+ciBlKSB7CiAgICAgICAgSm91cm5hbExvZ2dlci5sb2dFcnJvcihEZWJ1Z01zZy5MT0dfTVNHLCBK
+b3VybmFsTG9nZ2VyLkZBQ19QQUNLQUdFLCAKCQkJZS5nZXRNZXNzYWdlKCkpOwogICAgfQp9Cgpu
+YXRpdmUgc3RhdGljIFZhbHVlcyBjY1NlcnZpY2UoU2Vzc2lvbiBzZXNzaW9uLCBWYWx1ZXMgaW4p
+OwoJ</value>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.server.Session</value>
+    <value>com.wm.util.JournalLogger</value>
+    <value>com.wm.util.DebugMsg</value>
+  </array>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+</Values>
